@@ -33,7 +33,7 @@
    
 
   </head>
-  <body style="background-color: rgb(255, 255, 255);"> 
+  <body style="background-color: rgb(15, 20, 26);"> 
 
   <!--START SCROLL TOP BUTTON -->
     <a class="scrollToTop" href="#">
@@ -44,8 +44,9 @@
   <!-- Start menu -->
   <section id="mu-menu">
     <nav class="navbar navbar-default" role="navigation"> 
-      <a href="/" id="navbar_logozzz">ByrdeSoft</a> 
+      <!-- <a href="/" id="navbar_logozzz">ByrdeSoft</a>  -->
       <div class="container">
+        <a href="/" id="navbar_logozzz">ByrdeSoft</a>
         <div class="navbar-header">
           <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -126,17 +127,22 @@
   <section id="mu-slider">
     <!-- Start single slider item -->
     <div class="mu-slider-single">
-      <div class="mu-slider-img">
+      <!-- <div class="mu-slider-img">
         <figure>
-          <img src="https://images.pexels.com/photos/3374210/pexels-photo-3374210.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="img">
+          <img src="https://images.pexels.com/photos/5453809/pexels-photo-5453809.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="img">
+
         </figure>
+      </div> -->
+      <div class="video-container">
+        <video src="video2.mp4" autoplay loop muted></video>
       </div>
+      
       <div class="mu-slider-content">
-        <h1><b>Digital Transformation by Integrating SAP Solutions</b></h1>
+        <h1><b>Developing solutions for the future . We are your Software and technology Services partner</b> </h1>
+        <br> <br> <br> <br>
         <div class="clckd">
-        <h3 class="sjck" style="color: #FFFFFF">with</h3>
-        <h2 ><b>The team of SAP professionals</b></h2></div>
-       
+        <h2><b>We have highly trained professionals with vast experience in Development, Customization and Integration of complex Enterprise Solutions</b></h2>
+       <a href="/" target="_blank"><button style="padding: 8px 15px;">About Us</button></a></div>
         <!-- <a target="_blank" href="https://github.com/sonic-net/SONiC/wiki" class="mu-read-more-btn">Read More</a> -->
 
 		<!-- <p style="display: -webkit-inline-box;">
@@ -148,7 +154,16 @@
     <!-- Start single slider item -->
   </section>
   <!-- End Slider -->
+<!-- <script>
+    const images = ['https://images.pexels.com/photos/5453809/pexels-photo-5453809.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1', 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80',];
+let i = 0;
 
+setInterval(function() {
+  document.getElementById("mu-slider-img").style.backgroundImage = `url(${images[i]})`;
+  i = (i + 1) % images.length;
+}, 3000); -->
+
+</script>
   <!-- Start features section -->
   <section id="mu-features">
     <div  class="container">
@@ -157,11 +172,10 @@
           <div class="mu-features-area">
             <!-- Start Title -->
             <div class="mu-title">
-              <h2 style="color: #003136">What is ByrdeSoft ? </h2>
-              <p style="color: #000144 ;font-weight: 100;font-size:1.8rem; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif" text-align="left"  >ByrdeSoft is an SAP Development Company that provides customized web, mobile, and blockchain development services that are user-friendly for our customers and all their clients. We have a team of over 100+ developers who have industry-specific knowledge and can provide clients solutions to all their problems. We have served over 100+ customers and are on a mission to give sap solution that will maximize your business efficiency.
 
-                As an SAP services company, ByrdeSoft aims to provide simple technological solutions that can be used without any hassle so that you can continue your digital transformation with minimum investment and maximum ROI.</p>
-			  <p> <br> </p>
+              <h2>Who We Are ? </h2>
+              <p style="letter-spacing: 2px;">ByrdeSoft is an SAP Development Company that provides customized web, mobile, and blockchain development services that are user-friendly for our customers and all their clients. We have a team of over 100+ developers who have industry-specific knowledge and can provide clients solutions to all their problems. We have served over 100+ customers and are on a mission to give sap solution that will maximize your business efficiency. As an SAP services company, ByrdeSoft aims to provide simple technological solutions that can be used without any hassle so that you can continue your digital transformation with minimum investment and maximum ROI.</p>
+			  <p  style="letter-spacing: 2px;">We believes that giving back and growing together is how we build a better world for tomorrow. We provide organizations with the insights to experience sustainable development and reach the milestones they have set for themselves. The inexorable rise of innovative technologies enables us to find a better way to surmount the steep challenges in achieving our business objectives. We strongly believe that staying true to our values and helping businesses makes us trustworthy. </p>
             </div>
             <!-- End Title -->
           </div>
@@ -175,31 +189,94 @@
   <!-- Start service  -->
   <section id="mu-service">
     <div class="container">
+        <div class="headh">
+            <center><p style="font-size: 2rem;color: antiquewhite; opacity: 0.6; font-weight: 300; font-family:Roboto, sans-serif;"><u>Expertise</u></p></center>
+            <center> <h2 style="font-size: 5rem; margin-top: 2.5rem;margin-bottom: 1rem; color: aliceblue; text-shadow: 2px 2px rgb(190, 0, 13);">What We Do</h2></center>
+        </div>
       <div class="row">
         <div class="col-lg-4 col-md-4 col-sm-12">
           <div class="mu-service-area">
             <!-- Start single service -->
-            <div class="mu-service-single" style="padding:4px">
-              <h4 style="font-weight:bold ; padding:1px " >SAP S/4 HANA implementation</h4>
-              <p style="font-size: 14px">S/4 HANA provides superior data analytics, processing and the multi-cloud environment when compared to the standard SAP ERP</p>
+            <div class="mu-service-single">
+              <h4 style="font-weight:bold ; margin: 2rem 1.5rem; text-align:left;">Software Development</h4>
+              <p style="font-size: 1.8rem ;text-align:left ;margin: 2rem 1.5rem;">Our 700+ experts with field experience develop web, mobile and enterprise applications.</p>
             </div>
 		  </div>
 		</div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="mu-service-area">
+              <!-- Start single service -->
+              <div class="mu-service-single">
+                <h4 style="font-weight:bold ; padding:1px ;margin: 2rem 1.5rem;" >Business Processes</h4>
+                <p style="font-size:  1.8rem;margin: 2rem 1.5rem;">Get Project Management and Business Analytics services to maintain high quality.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="mu-service-area">
+              <!-- Start single service -->
+              <div class="mu-service-single">
+                <h4 style="font-weight:bold ; padding:1px;margin: 2rem 1.5rem; " >IoT</h4>
+                <p style="font-size:1.8rem;margin: 2rem 1.5rem;">Deep technological expertise in ML and AI development services.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="mu-service-area">
+              <!-- Start single service -->
+              <div class="mu-service-single" >
+                <h4 style="font-weight:bold ; padding:1px ;margin: 2rem 1.5rem;" >Machine Learnig & AI</h4>
+                <p style="font-size:  1.8rem;margin: 2rem 1.5rem;">Unlock the business value of connected devices in all industries.</p>
+              </div>
+            </div>
+          </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="mu-service-area">
+              <!-- Start single service -->
+              <div class="mu-service-single" >
+                <h4 style="font-weight:bold ; padding:1px;margin: 2rem 1.5rem; " >Mobile and WEB Development</h4>
+                <p style="font-size:  1.8rem;margin: 2rem 1.5rem;">softwares and web development to fullfill the digital needs of your business </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="mu-service-area">
+              <!-- Start single service -->
+              <div class="mu-service-single" >
+                <h4 style="font-weight:bold ; padding:1px;margin: 2rem 1.5rem; " >Cloud</h4>
+                <p style="font-size:  1.8rem;margin: 2rem 1.5rem;">We help organizations accelerate their cloud transformations.</p>
+              </div>
+            </div>
+          </div>
+<br><br>
+          <div class="saphead">
+           <center><h1 style= "font-weight: 600; color: antiquewhite;text-shadow:2px 0px #6b4545;">SAP development and Services</h1></center> 
+          </div>
+          <br>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="mu-service-area">
+              <!-- Start single service -->
+              <div class="mu-service-single">
+                <h4 style="font-weight:bold ; padding:1px ;margin: 2rem 1.5rem;" >SAP S/4 HANA implementation</h4>
+                <p style="font-size:  1.8rem;margin: 2rem 1.5rem;">S/4 HANA provides superior data analytics, processing and the multi-cloud environment when compared to the standard SAP ERP</p>
+              </div>
+            </div>
+          </div>
 		<div class="col-lg-4 col-md-4 col-sm-12">
 		  <div class="mu-service-area">
             <!-- Start single service -->
             <div class="mu-service-single">
-              <h4 style="font-weight:bold">SAP Ui5 Development</h4>
-              <p style="font-size: 14px">SAP UI5 is a script-based technology used to create responsive apps. With ByrdeSoft , create an application that will adapt to all smart devices and give all your clients a user-friendly and positive experience.</p>
+              <h4 style="font-weight:bold;margin: 2rem 1.5rem;">SAP Ui5 Development</h4>
+              <p style="font-size:  1.8rem;margin: 2rem 1.5rem;">SAP UI5 is a script-based technology used to create responsive apps. With ByrdeSoft , create an application that will adapt to all smart devices and give all your clients a user-friendly and positive experience.</p>
             </div>
 		  </div>
 		</div>
 		<div class="col-lg-4 col-md-4 col-sm-12">
 		  <div class="mu-service-area">
             <!-- Start single service -->
-            <div class="mu-service-single" style="padding:5px">
-              <h4 style="font-weight:bold">SAP CRM Implementation</h4>
-              <p style="font-size: 14px">ByrdeSoft's SAP CRM Implementation is swift, effective, and flawless so that managers can bring their business vision to life with a few clicks.</p>
+            <div class="mu-service-single" >
+              <h4 style="font-weight:bold;margin: 2rem 1.5rem;">SAP CRM Implementation</h4>
+              <p style="font-size:1.8rem;margin: 2rem 1.5rem;">ByrdeSoft's SAP CRM Implementation is swift, effective, and flawless so that managers can bring their business vision to life with a few clicks.</p>
             </div>
             <!-- Start single service -->
           </div>
@@ -218,7 +295,7 @@
         <div class="row">
           <div class="col-lg-6 col-md-6">
             <div class="mu-about-us-right"> 
-			  <h3 style="color: #e75252; margin-top: 50px; font-weight: bold">SAP and AI</h3>
+                <center><h3 style="color: #ff0000; margin-top: 50px; font-weight: bold">SAP and AI</h3></center>
 			  <figure>
 			  <center><a target="_blank" href="https://www.youtube.com/watch?v=voAohI72LX4" ><img style="display:block;" width="100%" height="400" src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" ></a></center>
 			  
@@ -239,7 +316,7 @@
           <div class="col-lg-6 col-md-6">
 			<div class="mu-about-us-right"> 
 			
-			<h3 style="color: #e75252; margin-top: 50px; font-weight: bold">SAP in IOT</h3>
+                <center><h3 style="color: #ff0000; margin-top: 50px; font-weight: bold">SAP in IOT</h3></center>
 			<figure>
 				<center><a target="_blank" href="https://www.youtube.com/watch?v=teHNcNWZTMk"><img style="display:block;" width="100%" height="400" src="https://images.unsplash.com/photo-1496065187959-7f07b8353c55?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" ></a></center>
 				</figure>
@@ -264,7 +341,7 @@
       <div class="row">
         <div class="col-lg-12 col-md-12">
 
-              <h2 style="color: #01BAFD; text-align:center;" >Want to transform your business using SAP integration or need consulting?</h2>
+              <h2 style="color: #44ccfd; text-shadow:2px 1px #341800; text-align:left;font-size: 4rem;margin-bottom: 4rem;" >Want to transform your business using SAP integration or need consulting?</h2>
               <!-- <p style="color: black; font-size: 18px" >Rapid innovation in silicon, CPU, power, port density, optics and speed while preserving in one unified software solution across multiple platforms!</p> -->
             </div>
 
@@ -277,7 +354,7 @@
       <div class="row">
         <div class="col-lg-12 col-md-12">
 
-          <center><a href="contact.html" ><button style="color: #002431; text-align:center;" >Get Estimation</button></a></center>
+          <a href="form.html" target="_blank"><button style="color: #002431; text-align:center;margin-bottom: 4rem;font-size: 2rem;" >Get Estimation</button></a>
               <!-- <p style="color: black; font-size: 18px" >Rapid innovation in silicon, CPU, power, port density, optics and speed while preserving in one unified software solution across multiple platforms!</p> -->
             </div>
             <!-- End Title -->
@@ -362,48 +439,6 @@
   <!-- Add fancyBox -->        
   <script type="text/javascript" src="assets/js/jquery.fancybox.pack.js"></script>
   
-      <script type = "application/javascript">
-         function loadJSON() {
-            var data_file = "https://api.github.com/repos/kannankvs/sonic-buildimage";
-            var http_request = new XMLHttpRequest();
-            try{
-               // Opera 8.0+, Firefox, Chrome, Safari
-               http_request = new XMLHttpRequest();
-            }catch (e) {
-               // Internet Explorer Browsers
-               try{
-                  http_request = new ActiveXObject("Msxml2.XMLHTTP");
-					
-               }catch (e) {
-				
-                  try{
-                     http_request = new ActiveXObject("Microsoft.XMLHTTP");
-                  }catch (e) {
-                     // Something went wrong
-                     alert("Your browser broke!");
-                     return false;
-                  }
-					
-               }
-            }
-			
-            http_request.onreadystatechange = function() {
-			
-               if (http_request.readyState == 4  ) {
-                  // Javascript function JSON.parse to parse JSON data
-                  var jsonObj = JSON.parse(http_request.responseText);
-
-                  // jsonObj variable now contains the data structure and can
-                  // be accessed as jsonObj.name and jsonObj.country.
-				  
-               }
-            }
-			
-            http_request.open("GET", data_file, true);
-            http_request.send();
-         }
-		
-      </script>
   <!-- Custom js -->
   <script src="assets/js/custom.js"></script> 
 
